@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Scraper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container py-5">
+    <div class="form-container mx-auto">
+        <h2 class="text-center mb-4">Business Scraper</h2>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" name="city" id="city" required>
+            </div>
+            <div class="mb-3">
+                <label for="keyword" class="form-label">Keyword</label>
+                <input type="text" class="form-control" name="keyword" id="keyword" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Search</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
